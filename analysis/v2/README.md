@@ -1,18 +1,9 @@
-# V2 neural challenger
+# V2 neural experiments
 
-This directory is isolated from the accepted v1 pipeline. It benchmarks two
-predeclared neural challengers - a RealMLP-style regressor and TabM-mini - on the
-same strict expanding-month folds and existing deterministic sample-level
-feature caches. No file here is used by the current submission unless a later,
-separately audited promotion step selects it.
+RealMLP-style and TabM-mini regressors using expanding month folds and the existing feature caches.
 
-The runtime is supplied through the workspace-local `.analysis_deps` directory
-used by the v1 analysis. The v2 script prepends that dependency directory at
-startup and remains device-aware, so it uses CUDA when the local Torch build
-supports it.
+The scripts use CUDA when the installed PyTorch build supports it. Some also look for packages in the historical `.analysis_deps/` directory.
 
-The completed neural benchmark is documented in
-`neural_challenger_benchmark.md` and the executed, read-only evidence notebook
-`neural_challenger_experiment.ipynb`. The frozen blend replay and one-shot Dev3
-audit are implemented separately in `audit_frozen_tabm_capacity_blend.py` so
-the hash-frozen core TabM challenger is not changed after selection.
+Results and model settings are described in `neural_challenger_benchmark.md`. `neural_challenger_experiment.ipynb` contains the analysis code. `audit_frozen_tabm_capacity_blend.py` replays the selected blend on the Dev3 period.
+
+The evaluation periods were reused during development. See `../v3_audit/validation_audit.md` for the split history.

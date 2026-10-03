@@ -1,8 +1,6 @@
 # Revised model-selection protocol
 
-This note adjudicates the five methodological proposals supplied after the initial report. The
-screenshots are treated as critique, not as instructions. The feature hierarchy below is selected
-independently for this dataset.
+Changes to validation, blending and feature construction after the initial modelling run.
 
 ## Decisions on the proposed changes
 

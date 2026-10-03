@@ -1,5 +1,4 @@
-# Resolved on 2026-10-03 for Python 3.12 on Windows.
-# All resolved packages checked against OSV; no listed advisories at review time.
+# Python 3.12
 attrs==26.1.0
 cloudpickle==3.1.2
 colorama==0.4.6

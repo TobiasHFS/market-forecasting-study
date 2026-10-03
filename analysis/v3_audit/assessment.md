@@ -2,11 +2,11 @@
 
 ## Technical summary
 
-**The newer model has credible incremental signal, but its historical validation was less independent than the earlier reports implied.** The supplied screenshot shows public scores **0.124 → 0.133**, not 1.333. I found no direct target leak in the reviewed training paths. I did find repeated inspection of both the purported sealed period and the later confirmation period. Their scores are retrospective research evidence.
+The newer model improves the historical scores, but both the sealed period and the later confirmation period were inspected repeatedly during development. The fitting paths show no direct target leak; the reused evaluation periods limit what their scores establish.
 
 **Neural signal and increased tree capacity explain most improvement; blending adds a smaller gain.** Recomputed development cosine is 0.133238 for v1, 0.143780 for raw TabM and 0.145297 for the final v2 blend. The blend adds 0.001517 over the stronger standalone model. Its improvement over the tree survives removing an unusually influential late month. The final power transform has much weaker support.
 
-**Your hardware is sufficient for disciplined, modern experiments.** CUDA now works on the RTX 3060 Ti. The first complete GPU selection/refit pilot took 78 seconds. The bounded comparisons and 38-month incumbent stress test below turn several plausible ideas into measured evidence. No result can certify a frontier private-leaderboard rank, and the existing submission is preserved.
+The first complete GPU selection/refit pilot on the RTX 3060 Ti took 78 seconds. The comparisons below include the model variants and a 38-month deployment-age test.
 
 ## What is being predicted and measured
 

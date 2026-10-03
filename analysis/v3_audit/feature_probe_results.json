@@ -1,0 +1,411 @@
+{
+  "scope": "50,000 evenly spaced cached samples per split; synthetic calls use Python kernel body",
+  "train": {
+    "market": {
+      "market_newest_age_s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99986,
+        "mean": 2.276432752609253,
+        "max": 57.197998046875
+      },
+      "market_time_inversion_frac": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "ref_mid": {
+        "nan_rate": 0.00444,
+        "positive_rate": 0.99556,
+        "mean": 1.0000042915344238,
+        "max": 1.0080246925354004
+      },
+      "ref_spread": {
+        "nan_rate": 0.00444,
+        "positive_rate": 0.99556,
+        "mean": 0.0012613837607204914,
+        "max": 0.011021792888641357
+      },
+      "ref_l1_depth": {
+        "nan_rate": 0.00444,
+        "positive_rate": 0.99556,
+        "mean": 475630.34375,
+        "max": 222107504.0
+      },
+      "ref_l2_depth": {
+        "nan_rate": 0.00468,
+        "positive_rate": 0.99532,
+        "mean": 1064104.75,
+        "max": 400902720.0
+      },
+      "ref_level2_depth": {
+        "nan_rate": 0.00468,
+        "positive_rate": 0.99532,
+        "mean": 588587.875,
+        "max": 195353968.0
+      },
+      "ref_bid_price_1": {
+        "nan_rate": 0.00444,
+        "positive_rate": 0.99556,
+        "mean": 0.9993734955787659,
+        "max": 1.005200982093811
+      },
+      "ref_ask_price_1": {
+        "nan_rate": 0.00444,
+        "positive_rate": 0.99556,
+        "mean": 1.0006349086761475,
+        "max": 1.0131686925888062
+      },
+      "ref_bid_price_2": {
+        "nan_rate": 0.00468,
+        "positive_rate": 0.99532,
+        "mean": 0.9982744455337524,
+        "max": 1.0036065578460693
+      },
+      "ref_ask_price_2": {
+        "nan_rate": 0.00468,
+        "positive_rate": 0.99532,
+        "mean": 1.0017476081848145,
+        "max": 1.0196079015731812
+      },
+      "market_book_valid_frac_10s": {
+        "nan_rate": 0.0188,
+        "positive_rate": 0.97618,
+        "mean": 0.9948838353157043,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_10s": {
+        "nan_rate": 0.0188,
+        "positive_rate": 0.00502,
+        "mean": 0.005116184242069721,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_10s": {
+        "nan_rate": 0.0188,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_10s": {
+        "nan_rate": 0.0188,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_30s": {
+        "nan_rate": 0.00074,
+        "positive_rate": 0.99404,
+        "mean": 0.9947375059127808,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_30s": {
+        "nan_rate": 0.00074,
+        "positive_rate": 0.00528,
+        "mean": 0.005262561142444611,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_30s": {
+        "nan_rate": 0.00074,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_30s": {
+        "nan_rate": 0.00074,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.9948,
+        "mean": 0.9947276711463928,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.00532,
+        "mean": 0.005272367969155312,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99502,
+        "mean": 0.9947765469551086,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.00548,
+        "mean": 0.005223417188972235,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99556,
+        "mean": 0.9949507117271423,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.00576,
+        "mean": 0.005049271043390036,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 2e-05,
+        "mean": 1.4084507427014614e-07,
+        "max": 0.007042253389954567
+      }
+    },
+    "invalid_terminal_reference_count": 222,
+    "invalid_ref_nonempty_bin_count": 0,
+    "invalid_ref_mid_offset_zero_count": 0,
+    "invalid_ref_ofi_nonzero_count": 0,
+    "empty_latest_6s_bin_rate": 0.04954,
+    "order_invalid_ref_populated_bins": 2004,
+    "order_invalid_ref_zero_vwap_bins": 2004,
+    "trade_invalid_ref_populated_bins": 1488,
+    "trade_invalid_ref_zero_vwap_bins": 1488
+  },
+  "test": {
+    "market": {
+      "market_newest_age_s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99994,
+        "mean": 2.229360580444336,
+        "max": 43.65599822998047
+      },
+      "market_time_inversion_frac": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "ref_mid": {
+        "nan_rate": 0.00704,
+        "positive_rate": 0.99296,
+        "mean": 1.000004768371582,
+        "max": 1.0073890686035156
+      },
+      "ref_spread": {
+        "nan_rate": 0.00704,
+        "positive_rate": 0.99296,
+        "mean": 0.0010088022099807858,
+        "max": 0.011072397232055664
+      },
+      "ref_l1_depth": {
+        "nan_rate": 0.00704,
+        "positive_rate": 0.99296,
+        "mean": 527212.3125,
+        "max": 269776256.0
+      },
+      "ref_l2_depth": {
+        "nan_rate": 0.00712,
+        "positive_rate": 0.99288,
+        "mean": 1234300.0,
+        "max": 545503040.0
+      },
+      "ref_level2_depth": {
+        "nan_rate": 0.00712,
+        "positive_rate": 0.99288,
+        "mean": 707099.75,
+        "max": 275726784.0
+      },
+      "ref_bid_price_1": {
+        "nan_rate": 0.00704,
+        "positive_rate": 0.99296,
+        "mean": 0.9995003342628479,
+        "max": 1.004926085472107
+      },
+      "ref_ask_price_1": {
+        "nan_rate": 0.00704,
+        "positive_rate": 0.99296,
+        "mean": 1.000509262084961,
+        "max": 1.0117051601409912
+      },
+      "ref_bid_price_2": {
+        "nan_rate": 0.00712,
+        "positive_rate": 0.99288,
+        "mean": 0.9985960125923157,
+        "max": 1.0033493041992188
+      },
+      "ref_ask_price_2": {
+        "nan_rate": 0.00712,
+        "positive_rate": 0.99288,
+        "mean": 1.001421332359314,
+        "max": 1.0152671337127686
+      },
+      "market_book_valid_frac_10s": {
+        "nan_rate": 0.01002,
+        "positive_rate": 0.98214,
+        "mean": 0.9920739531517029,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_10s": {
+        "nan_rate": 0.01002,
+        "positive_rate": 0.00786,
+        "mean": 0.007926085963845253,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_10s": {
+        "nan_rate": 0.01002,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_10s": {
+        "nan_rate": 0.01002,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_30s": {
+        "nan_rate": 0.0003,
+        "positive_rate": 0.99182,
+        "mean": 0.9920976161956787,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_30s": {
+        "nan_rate": 0.0003,
+        "positive_rate": 0.00794,
+        "mean": 0.007902370765805244,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_30s": {
+        "nan_rate": 0.0003,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_30s": {
+        "nan_rate": 0.0003,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99218,
+        "mean": 0.9920921325683594,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.00802,
+        "mean": 0.00790790468454361,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_60s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99234,
+        "mean": 0.992119312286377,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.00808,
+        "mean": 0.00788070634007454,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_180s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_valid_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.99296,
+        "mean": 0.9922745227813721,
+        "max": 1.0
+      },
+      "market_book_invalid_nonpositive_price_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.00844,
+        "mean": 0.007725510746240616,
+        "max": 1.0
+      },
+      "market_book_crossed_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "market_book_nonpositive_depth_frac_600s": {
+        "nan_rate": 0.0,
+        "positive_rate": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "invalid_terminal_reference_count": 352,
+    "invalid_ref_nonempty_bin_count": 0,
+    "invalid_ref_mid_offset_zero_count": 0,
+    "invalid_ref_ofi_nonzero_count": 0,
+    "empty_latest_6s_bin_rate": 0.0347,
+    "order_invalid_ref_populated_bins": 3293,
+    "order_invalid_ref_zero_vwap_bins": 3293,
+    "trade_invalid_ref_populated_bins": 2614,
+    "trade_invalid_ref_zero_vwap_bins": 2614
+  },
+  "synthetic_zero_quote_predecessor": {
+    "expected_latest_bin_ofi": 0.0,
+    "actual_latest_bin_ofi": 0.5
+  },
+  "synthetic_locked_reference": {
+    "mid_offset": 0.0,
+    "microprice_offset": 0.0,
+    "trade_vwap_offset": 0.0,
+    "expected": "NaN for undefined spread-unit features"
+  }
+}
